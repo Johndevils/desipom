@@ -1,0 +1,9 @@
+{
+  "version": 2,
+  "routes": [
+    {
+      "src": "/xnxx/(.*)/(.*)",
+      "dest": "/api/xnxx.js?page=$1&search=$2"
+    }
+  ]
+}
